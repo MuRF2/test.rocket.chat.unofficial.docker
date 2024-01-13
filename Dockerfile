@@ -1,8 +1,8 @@
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 
 ## Installing Node.js
 ENV NODE_ENV production
-ENV NODE_VERSION 14.18.3
+ENV NODE_VERSION 14.21.3
 
 ARG ARCH
 ENV ARCH ${ARCH}
@@ -101,3 +101,4 @@ LABEL org.opencontainers.image.source="https://github.com/murf2/test.rocket.chat
 LABEL org.opencontainers.image.description="testtesttest"
 
 CMD ["node", "main.js"]
+

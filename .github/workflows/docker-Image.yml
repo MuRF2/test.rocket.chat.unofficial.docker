@@ -16,7 +16,7 @@ jobs:
     
       - name: Retrieve version
         id: version
-        run: echo "TAG_NAME_VERSION=4.5.5" >> $GITHUB_OUTPUT
+        run: echo "TAG_NAME_VERSION=6.5.2" >> $GITHUB_OUTPUT
                 
       - name: Checkout
         uses: actions/checkout@v3
