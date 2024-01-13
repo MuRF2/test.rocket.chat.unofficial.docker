@@ -97,4 +97,7 @@ ENV DEPLOY_METHOD=docker-official \
 
 EXPOSE 3000
 
+LABEL org.opencontainers.image.source=https://github.com/murf2/test.rocket.chat.unofficial.docker
+LABEL org.opencontainers.image.description="testtesttest"
+
 CMD ["node", "main.js"]
